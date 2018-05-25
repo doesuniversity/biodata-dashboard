@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Hello World!"/>
   </div>
 </template>
 
@@ -16,9 +16,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
